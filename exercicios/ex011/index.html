@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua
+        o tamanho da tela do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotopequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotomedia.png" type="image/png">
+            <img src="imagens/fotogrande.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Final Girl - Jeremy Blake.mp3" type="audio/mpeg">
+        <source src="midia/Final Girl - Jeremy Blake.ogg" type="audio/ogg">
+        <source src="midia/Final Girl - Jeremy Blake.wav" type="audio/wav">
+
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio. <a href="midia/Final Girl - Jeremy Blake.mp3" 
+            download="midia/Final Girl - Jeremy Blake.mp3" type="audio/mpeg">Clique aqui
+            para baixar o arquivo
+        </a>
+
+    </audio>
+    <!--MP3 WAV OGG-->
+</body>
+</html>

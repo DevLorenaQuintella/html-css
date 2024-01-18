@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkcyan;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(57, 184, 184);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.501);
+           
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: 3px;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(55, 51, 51, 0.753);
+        }
+        article{
+            background-color: rgb(57, 184, 184);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: darkcyan;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Cabeçalho</h1>
+        <nav>
+            <a href="">link1</a>
+            <a href="">link2</a>
+            <a href="">link3</a>
+        </nav>
+
+    </header>
+    <main>
+        <h2>Conteúdo</h2>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article id="noticias1">
+            </article>
+            <article id="noticias2">
+                <h2>Noticias sobre o brasil</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el
+                    it. Maxime cupiditate expedita vero officiis necessitatibusn
+                    , ipsam atque saepe consequuntur repudiandae maiores quia, dolor
+                    accusamus perferendis harum sapiente voluptas nulla esse illum.</p>
+                <aside id="conteudoPeriferico">
+                    <p>Artigo escrito José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>Desenvolvido por Lorena</footer>
+</body>
+</html>
