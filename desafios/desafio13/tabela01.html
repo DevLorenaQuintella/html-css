@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 01</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 400px;
+            border-collapse:separate;
+        }
+        tr, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        td.amarelo{
+            background-color: yellow;
+            color: white;
+        }
+        td.azul{
+            background-color: rgb(0, 195, 255);
+            color: white;
+        }
+        td.rosa{
+            background-color: fuchsia;
+            color: white;
+        }
+        td.verde{
+            background-color: greenyellow;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio da primeira tabela</h1>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2" class="amarelo">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="azul">8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="rosa">10</td>
+            <td colspan="2" class="verde
+            ">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>    
+</body>
+</html>
